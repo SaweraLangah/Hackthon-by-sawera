@@ -1,0 +1,207 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: white;
+   
+   
+}
+
+form {
+   max-width: 600px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   border: 3px slateblue;
+   color: black;
+   background-image:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBv6_JYy3uyr0NQLrK-1qrY0kGzb5gguJmQ&s);
+ }
+
+.heading {
+    color: purple;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+ .mainn{
+    max-width: 80;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .personal{
+    color: black;
+    background-color: skyblue;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+
+ }
+
+ .forpic{
+    color: black;
+ }
+
+ input[type="file"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: skyblue;
+    border-radius: 30px;
+    margin-top: 20px;
+ }
+
+ input[type="file"]::file.selector-button{
+    background-color: plum;
+    cursor: pointer;
+    font-size: large;
+    color: black;
+    border-color: blueviolet;border-radius: 10px;
+
+ }
+
+ input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: lightpink;
+    border-width: 3px;
+ }
+
+ #esumeOutput{
+   max-width: 600px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   border: 3px slateblue;
+   color: plum;
+   background-image:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBv6_JYy3uyr0NQLrK-1qrY0kGzb5gguJmQ&s);
+ }
+
+#shareable-link-container{
+   max-width: 600px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   border: 3px slateblue;
+   color: black;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBv6_JYy3uyr0NQLrK-1qrY0kGzb5gguJmQ&s);
+}
+ #submit{
+   max-width: 800px;
+   border-radius: 10px;
+   font-size: 30px;
+   margin: 0 10px;
+   color: blue;
+ }
+
+ #submit:hover{
+   color: blueviolet;
+   box-shadow: skyblue;
+ }
+
+ #downloadpdf{
+   max-width: 800px;
+   border-radius: 10px;
+   font-size: 30px;
+   margin: 0 10px;
+   color: blue;
+ }
+
+ #downloadpdf:hover{
+   color: blueviolet;
+   box-shadow: skyblue;
+ }
+ h1 { 
+   max-width: 600px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   border: 3px slateblue;
+   color: black;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBv6_JYy3uyr0NQLrK-1qrY0kGzb5gguJmQ&s);
+
+ 
+ }
+
+ h2 ,p{
+   margin: 10px 0;
+ }
+
+ h2{
+   font-size: 20px;
+   font-family: cursive;
+
+ }
+
+ p{
+   color: black;
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+ }
+
+ img{
+   max-width: 150px;
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+ }
+
+ @media (max-width: 600px){
+   /* Adjusting padding and font size for smaller screen */
+body{
+   margin: 10px;
+}
+
+form{
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+input,textArea{
+   font-size: 40px;
+   padding: 20px;
+}
+
+h2{
+   font-size: 1.5em;
+}
+
+p{
+   font-size: 1em;
+}
+
+img{
+   max-width: 100px;
+}
+
+input[type="submit"] {
+   padding: auto;
+}
+
+#resumeOutput{
+   padding: 15px;
+   margin-bottom: 20px;
+   margin-left: -3px;
+   text-align: center;
+}
+ }
